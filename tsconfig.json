@@ -18,7 +18,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": ".", // Thư mục gốc của ứng dụng của bạn
+    "paths": {
+      "@/*": ["*"]
+    }
   },
   "include": [
     "src"
